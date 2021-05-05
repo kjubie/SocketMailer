@@ -1,0 +1,1 @@
+g++ -o "/home/abru/projects/VSYSClient/bin/x64/Release/VSYSClient.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/abru/projects/VSYSClient/obj/x64/Release/Client.o /home/abru/projects/VSYSClient/obj/x64/Release/main.o -lpthread

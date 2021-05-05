@@ -1,0 +1,55 @@
+﻿  Cleaning remote project directory
+  Validating sources
+  Copying sources remotely to 'localhost'
+  Validating architecture
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  Client.cpp
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(34,22): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(52,34): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(52,34): warning :    52 |         address.sin_port = htons(port);
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(52,34): warning :       |                                  ^~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(82,31): warning : comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(82,31): warning :    82 |             for (int i = 0; i < sizeof(buffer); ++i)
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(82,31): warning :       |                             ~~^~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(86,13): warning : this ‘if’ clause does not guard... [-Wmisleading-indentation]
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(86,13): warning :    86 |             if (active)
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(86,13): warning :       |             ^~
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(90,17): message : ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(90,17): message :    90 |                 send(cSocket, buffer, strlen(buffer), 0);
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(90,17): message :       |                 ^~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(104,24): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(104,24): warning :   104 |             size = recv(cSocket, rBuffer, BUF - 1, 0);
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(104,24): warning :       |                    ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  main.cpp
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\main.cpp(120): warning : "BUF" redefined
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\main.cpp(120): warning :   120 | #define BUF 1024
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\main.cpp(120): warning :       |
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(14): message : this is the location of the previous definition
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(14): message :    14 | #define BUF 256
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(14): message :       |
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\main.cpp(121): warning : "PORT" redefined
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\main.cpp(121): warning :   121 | #define PORT 6543
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\main.cpp(121): warning :       |
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(15): message : this is the location of the previous definition
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(15): message :    15 | #define PORT 6542
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(15): message :       |
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(34,22): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(52,34): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(52,34): warning :    52 |         address.sin_port = htons(port);
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(52,34): warning :       |                                  ^~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(82,31): warning : comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(82,31): warning :    82 |             for (int i = 0; i < sizeof(buffer); ++i)
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(82,31): warning :       |                             ~~^~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(86,13): warning : this ‘if’ clause does not guard... [-Wmisleading-indentation]
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(86,13): warning :    86 |             if (active)
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(86,13): warning :       |             ^~
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(90,17): message : ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(90,17): message :    90 |                 send(cSocket, buffer, strlen(buffer), 0);
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(90,17): message :       |                 ^~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(104,24): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(104,24): warning :   104 |             size = recv(cSocket, rBuffer, BUF - 1, 0);
+D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\Client.cpp(104,24): warning :       |                    ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Linking objects
+  VSYSClient.vcxproj -> D:\SchoolData\FH-VSYS\VSYS\VSYSClient\VSYSClient\bin\x64\Debug\VSYSClient.out

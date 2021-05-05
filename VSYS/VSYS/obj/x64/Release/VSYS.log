@@ -1,0 +1,193 @@
+﻿  Cleaning remote project directory
+  Validating sources
+  Copying sources remotely to 'localhost'
+  Validating architecture
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  ClientHandler.cpp
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(118,14): warning : passing argument 1 to restrict-qualified parameter aliases with argument 3 [-Wrestrict]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(118,14): warning :   118 |      sprintf(msg, "%s\n%s", msg, line);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(118,14): warning :       |              ^~~            ~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(155,14): warning : passing argument 1 to restrict-qualified parameter aliases with argument 3 [-Wrestrict]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(155,14): warning :   155 |      sprintf(files, "%s\n%s", files, ent->d_name);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(155,14): warning :       |              ^~~~~            ~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,12): warning : left operand of comma operator has no effect [-Wunused-value]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,12): warning :   163 |     delete(files, dirPath);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,12): warning :       |            ^~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,26): warning : deleting array ‘((void)0, dirPath)’
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,26): warning :   163 |     delete(files, dirPath);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,26): warning :       |                          ^
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(145,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(145,25): warning :   145 |                 sendMsg("Message sent!");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(145,25): warning :       |                         ^~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(149,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(149,25): warning :   149 |                 sendMsg("Could not send message You must provide a user!");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(149,25): warning :       |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(153,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(157,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(161,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(165,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(176,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(180,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(184,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(188,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(199,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(203,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(207,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(211,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(215,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(221,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(221,25): warning :   221 |                 sendMsg("Message deleted!");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(221,25): warning :       |                         ^~~~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(225,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(229,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(233,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(237,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(242,21): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(242,21): warning :   242 |             sendMsg("Quitting...");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(242,21): warning :       |                     ^~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(244,21): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(244,21): warning :   244 |             sendMsg("Not a command!");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(244,21): warning :       |                     ^~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(257,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(257,27): warning :   257 |         for (int i = 0; i < sizeof(buffer); ++i)
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(257,27): warning :       |                         ~~^~~~~~~~~~~~~~~~
+  FileHandler.cpp
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(118,14): warning : passing argument 1 to restrict-qualified parameter aliases with argument 3 [-Wrestrict]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(118,14): warning :   118 |      sprintf(msg, "%s\n%s", msg, line);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(118,14): warning :       |              ^~~            ~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(155,14): warning : passing argument 1 to restrict-qualified parameter aliases with argument 3 [-Wrestrict]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(155,14): warning :   155 |      sprintf(files, "%s\n%s", files, ent->d_name);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(155,14): warning :       |              ^~~~~            ~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,12): warning : left operand of comma operator has no effect [-Wunused-value]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,12): warning :   163 |     delete(files, dirPath);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,12): warning :       |            ^~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,26): warning : deleting array ‘((void)0, dirPath)’
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,26): warning :   163 |     delete(files, dirPath);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,26): warning :       |                          ^
+  main.cpp
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(118,14): warning : passing argument 1 to restrict-qualified parameter aliases with argument 3 [-Wrestrict]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(118,14): warning :   118 |      sprintf(msg, "%s\n%s", msg, line);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(118,14): warning :       |              ^~~            ~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(155,14): warning : passing argument 1 to restrict-qualified parameter aliases with argument 3 [-Wrestrict]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(155,14): warning :   155 |      sprintf(files, "%s\n%s", files, ent->d_name);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(155,14): warning :       |              ^~~~~            ~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,12): warning : left operand of comma operator has no effect [-Wunused-value]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,12): warning :   163 |     delete(files, dirPath);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,12): warning :       |            ^~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,26): warning : deleting array ‘((void)0, dirPath)’
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,26): warning :   163 |     delete(files, dirPath);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,26): warning :       |                          ^
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(145,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(145,25): warning :   145 |                 sendMsg("Message sent!");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(145,25): warning :       |                         ^~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(149,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(149,25): warning :   149 |                 sendMsg("Could not send message You must provide a user!");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(149,25): warning :       |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(153,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(157,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(161,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(165,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(176,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(180,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(184,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(188,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(199,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(203,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(207,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(211,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(215,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(221,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(221,25): warning :   221 |                 sendMsg("Message deleted!");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(221,25): warning :       |                         ^~~~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(225,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(229,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(233,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(237,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(242,21): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(242,21): warning :   242 |             sendMsg("Quitting...");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(242,21): warning :       |                     ^~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(244,21): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(244,21): warning :   244 |             sendMsg("Not a command!");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(244,21): warning :       |                     ^~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(257,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(257,27): warning :   257 |         for (int i = 0; i < sizeof(buffer); ++i)
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(257,27): warning :       |                         ~~^~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(44,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::thread>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(44,27): warning :    44 |         for (int i = 0; i < clients.size(); i++)
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(44,27): warning :       |                         ~~^~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(60,34): warning : conversion from ‘int’ to ‘__uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(60,34): warning :    60 |         address.sin_port = htons(port);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(60,34): warning :       |                                  ^~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(86,21): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(86,21): warning :    86 |         ch->sendMsg("Quit");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(86,21): warning :       |                     ^~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(125,27): warning : control reaches end of non-void function [-Wreturn-type]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(125,27): warning :   125 |                     fclose(fptr);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(125,27): warning :       |                     ~~~~~~^~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(109,15): warning : ‘filename’ is used uninitialized in this function [-Wuninitialized]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(109,15): warning :   109 |         strcpy(filename, buffer);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(109,15): warning :       |         ~~~~~~^~~~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(111,16): warning : ‘filepath’ is used uninitialized in this function [-Wuninitialized]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(111,16): warning :   111 |         sprintf(filepath, "/home/abru/mail/attFiles/%s", filename);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(111,16): warning :       |         ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Server.cpp
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(118,14): warning : passing argument 1 to restrict-qualified parameter aliases with argument 3 [-Wrestrict]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(118,14): warning :   118 |      sprintf(msg, "%s\n%s", msg, line);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(118,14): warning :       |              ^~~            ~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(155,14): warning : passing argument 1 to restrict-qualified parameter aliases with argument 3 [-Wrestrict]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(155,14): warning :   155 |      sprintf(files, "%s\n%s", files, ent->d_name);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(155,14): warning :       |              ^~~~~            ~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,12): warning : left operand of comma operator has no effect [-Wunused-value]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,12): warning :   163 |     delete(files, dirPath);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,12): warning :       |            ^~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,26): warning : deleting array ‘((void)0, dirPath)’
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,26): warning :   163 |     delete(files, dirPath);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\FileHandler.cpp(163,26): warning :       |                          ^
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(145,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(145,25): warning :   145 |                 sendMsg("Message sent!");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(145,25): warning :       |                         ^~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(149,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(149,25): warning :   149 |                 sendMsg("Could not send message You must provide a user!");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(149,25): warning :       |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(153,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(157,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(161,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(165,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(176,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(180,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(184,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(188,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(199,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(203,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(207,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(211,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(215,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(221,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(221,25): warning :   221 |                 sendMsg("Message deleted!");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(221,25): warning :       |                         ^~~~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(225,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(229,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(233,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(237,25): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(242,21): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(242,21): warning :   242 |             sendMsg("Quitting...");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(242,21): warning :       |                     ^~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(244,21): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(244,21): warning :   244 |             sendMsg("Not a command!");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(244,21): warning :       |                     ^~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(257,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(257,27): warning :   257 |         for (int i = 0; i < sizeof(buffer); ++i)
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\ClientHandler.cpp(257,27): warning :       |                         ~~^~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(44,27): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::thread>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(44,27): warning :    44 |         for (int i = 0; i < clients.size(); i++)
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(44,27): warning :       |                         ~~^~~~~~~~~~~~~~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(60,34): warning : conversion from ‘int’ to ‘__uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(60,34): warning :    60 |         address.sin_port = htons(port);
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(60,34): warning :       |                                  ^~~~
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(86,21): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(86,21): warning :    86 |         ch->sendMsg("Quit");
+D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\Server.cpp(86,21): warning :       |                     ^~~~~~
+  Linking objects
+  VSYS.vcxproj -> D:\SchoolData\FH-VSYS\VSYS\VSYS\VSYS\bin\x64\Release\VSYS.out
